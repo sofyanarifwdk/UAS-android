@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    tools:context=".HomeScreen">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blue"
+        >
+
+     <ImageView
+        android:id="@+id/imghome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logoadam"
+        app:tint="@color/white"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+       android:layout_margin="20dp"
+       android:id="@+id/judul"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/imghome"
+       android:textColor="@color/white"
+       android:text="Selamat Datang Di AdamApps"
+       android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/to_hello"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/helo"
+            android:text="Hello Project" />
+
+        <Button
+            android:id="@+id/to_count"
+            android:layout_width="395dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/count"
+            android:backgroundTint="@color/black"
+            android:text="Count Project" />
+        <Button
+            android:id="@+id/to_twoactivity"
+            android:layout_width="395dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/twoactivity_24"
+            android:backgroundTint="@color/black"
+            android:text="TwoActivity Project" />
+        <Button
+            android:id="@+id/to_sianida"
+            android:layout_width="395dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_baseline_coffee_24"
+            android:backgroundTint="@color/black"
+            android:text="Sianida Project" />
+        <Button
+            android:id="@+id/to_fibonacci"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_baseline_format_list_numbered_24"
+            android:text="Fibonacci Project" />
+
+        <Button
+            android:id="@+id/to_alarm"
+            android:layout_width="395dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_baseline_access_alarm_24"
+            android:text="Alarm Project" />
+        <Button
+            android:id="@+id/to_map"
+            android:layout_width="395dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_baseline_access_alarm_24"
+            android:text="Map Project" />
+
+    </LinearLayout>
+
+</RelativeLayout>

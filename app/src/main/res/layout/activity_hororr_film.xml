@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetail">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerHorror"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="220dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/playerHorror"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Judul Films :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="THE CONFERENCE (2023) "
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Negara :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sweden"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sutradara :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patrik Eklund"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bintang Film :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amed Bozan, Marie Agerhäll, Robert Follin"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comedy, Horror, Mystery"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diterbitkan :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="October 13, 2023"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sinopsis :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Conference (2023) Konferensi pembangunan tim untuk pegawai kota berubah menjadi mimpi buruk ketika tuduhan korupsi mulai beredar dan mengganggu lingkungan kerja. Pada saat yang sama, sosok misterius mulai membunuh para peserta."
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
